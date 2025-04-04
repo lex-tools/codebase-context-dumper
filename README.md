@@ -39,6 +39,29 @@ For development with auto-rebuild:
 npm run watch
 ```
 
+## Releasing
+
+This project uses [standard-version](https://github.com/conventional-changelog/standard-version) combined with [Conventional Commits](https://www.conventionalcommits.org/) for automated versioning, changelog generation, and tagging.
+
+To create a new release:
+
+1.  Ensure your Git working directory is clean.
+2.  Make sure your commit messages follow the Conventional Commits format (e.g., `feat: ...`, `fix: ...`, `BREAKING CHANGE: ...`).
+3.  Run the release script:
+    ```bash
+    npm run release
+    ```
+    This will bump the version in `package.json`, update `CHANGELOG.md`, commit the changes, and create a Git tag.
+4.  Push the commit and tag to the remote repository:
+    ```bash
+    git push --follow-tags origin main # Or your default branch
+    ```
+5.  (Optional) Publish the new version to npm:
+    ```bash
+    npm publish
+    ```
+
+
 ## Local Installation & Usage
 
 To use with Claude Desktop, add the server config:
