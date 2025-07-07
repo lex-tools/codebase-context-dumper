@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/lex-tools-codebase-context-dumper-badge.png)](https://mseep.ai/app/lex-tools-codebase-context-dumper)
+
 # codebase-context-dumper MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@lex-tools/codebase-context-dumper)](https://smithery.ai/server/@lex-tools/codebase-context-dumper)
